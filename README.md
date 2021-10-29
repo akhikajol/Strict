@@ -1,2 +1,7 @@
-# Strict
-Strict-project
+#
+
+
+     Strict
+    Strict-project
+    
+    https://akhikajol.github.io/Strict/

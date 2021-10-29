@@ -155,10 +155,8 @@ body{
 .show-part{
     background-color: #F6F9F9;
     padding: 65px 0;
+     overflow: hidden;  
     
-}
-.w-wrapper{
-    overflow: hidden;  
 }
 .text{
     text-align: center;

@@ -1,0 +1,289 @@
+/* font-family: 'Lato', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:'Lato', sans-serif ;
+    font-size:16px ;
+    font-weight: 400;
+    color: #2D3950;
+}
+.wrapper{
+    margin: 0 auto;
+    width: 80%;
+}
+.h-menu{
+   padding: 20px 0;
+    overflow: hidden;
+}
+.logo{
+    width: 14%;
+    float: left;
+}
+.logo img{
+    width: 100%;
+    
+}
+.menu{
+    margin-top: 10px;
+    width: 60%;
+    float: right;
+}
+.menu ul{
+    float: right;
+  
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+}
+.menu ul li a{
+    float: right;
+    text-decoration: none;
+    display: inline;
+    margin: 0 20px;
+    color: #2D3950;
+    transform: .3s;
+}
+.menu ul li:last-child a{
+    margin-right: 0;
+}
+.menu ul li a:hover{
+    border-bottom: 1px solid #15A4FA;
+    color: #15A4FA;
+}
+/* banner start */
+.banner{
+    background-image: url(../img/bannert.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center ;
+    min-height: 700px;
+}
+.wrapper2{
+ 
+}
+.ban-con{
+    text-align: center;
+    width: 50%;
+   padding-top: 160px;
+   padding-bottom: 200px;
+    margin-left: 25%;
+}
+   
+.h-1{
+    color: white;
+    font-family:'Lato', sans-serif; ;
+    font-size: 100px;
+    font-weight: 700;
+    border-bottom: 1px solid #15A4FA;
+}
+.p1{
+    font-size: 20px;
+    color: white;
+    margin:25px 0 50px;
+}
+.ban-con button{
+    color: white;
+    font-size: 18px;
+    margin-right: 25px;
+    height: 55px;
+    width: 160px;
+    background:none;
+    border: 1px solid #15A4FA;
+    cursor: pointer;
+    transition: .4s;
+}
+.ban-con button:hover{
+    background-color: #15A4FA;
+}
+
+/* banner end */
+
+
+/* simple start */
+.simple-sec{
+  background-color: #F6F9F9;
+}
+.simple{
+    padding: 70px 0;
+    text-align: center;
+}
+.h2{
+    font-size: 40px;
+}
+.p2{
+    margin: 18px 0;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+/* simple end */
+
+
+/* blog start  */
+.blog{
+    overflow: hidden;
+    padding:60px 0;
+}
+.single-b{
+    width:30%;
+   margin-right:5%;
+   float: left;
+   text-align: center;
+   transition: .4s;
+}
+ .single-b:last-child{
+    margin-right: 0;
+}
+.single-b:hover{
+    transform: scale(1.1);
+}
+
+.single-b h2{
+   margin: 22px 0;
+   font-size: 22px;
+}
+.single-b p{
+    line-height: 24px;
+}
+/* blog end  */
+
+
+/* showcase start */
+.show-part{
+    background-color: #F6F9F9;
+    padding: 65px 0;
+    
+}
+.w-wrapper{
+    overflow: hidden;  
+}
+.text{
+    text-align: center;
+}
+.text h1{
+    font-size: 40px;
+}
+.text p{
+    padding: 20px 0;
+    font-size: 15px;
+}
+.showcase{
+    width: 31.3%;
+    float: left;
+    margin-right: 3%;
+    margin-top: 30px;
+    transition: .3s;
+}
+.showcase:hover{
+   transform: scale(1.02);
+}
+.box-2{
+    width: 100%;
+}
+.box-2 img{
+    width: 100%;
+}
+.p-b{
+    margin-right: 0;   
+}
+
+/* showcase end  */
+
+/* form start */
+.form{
+    background-image:url(../img/form.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: translate(top center);
+    width: 100%;
+    min-height:600px ;
+    padding: 60px 0;
+}
+.wrapper3{}
+
+.m-form{
+    text-align: center;
+}
+.m-form h3{
+    color: #FFFFFf;
+ font-size: 41px;
+}
+.m-form p{
+    color: #999999;
+    font-size: 15px;
+    margin: 30px 0;
+}
+.form-part{}
+
+.inp{
+    height:60px;
+    width: 500px;
+    background:none ;
+    border: 1px solid rgb(145, 142, 142);
+    margin: 20px 0;
+    color: #999999;
+}
+.inpp{
+    margin-top: 20px;
+    height:150px;
+    width: 500px;
+    background:none ;
+    border: 1px solid rgb(145, 142, 142);
+}
+
+.form-part span{
+    color: #999999;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+.btn{
+    height:50px ;
+    width: 145px;
+    background:none ;
+    margin: 20px 0 20px 175px;
+    border: 1px solid #15A4FA;
+    color: #999999;
+    transition: .4s;
+}
+.btn:hover{
+    background-color: #15A4FA;
+    color: #FFFFFf;
+}
+
+/* form end */
+
+/* footer start */
+.footer{}
+.wrapper{
+    overflow: hidden;
+}
+.f-menu{
+   
+}
+.copy{
+   display: inline-block;
+   margin-top: 24px;
+}
+.f-icon{
+    float: right;
+}
+.f-icon ul{
+    float: right;
+}
+.f-icon ul li{
+    list-style: none;
+    float: left;
+
+}
+.f-icon ul li a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 10px;
+
+}
+.f-icon ul li a img{}
+
+/* footer end */

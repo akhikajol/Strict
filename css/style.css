@@ -193,7 +193,7 @@ body{
     left: 50%;
     transform: translate(-50%,-50%);
     color: #2d3950;
-    visibility: hidden;
+   opacity: 0;
  }
  .o-box{
     position: absolute;
@@ -207,12 +207,12 @@ body{
     transition: 0.5s;
     background-color: #15A4FA;
  }  
- .showcase:hover .o-box{
-    opacity: .5;
+ .o-box:hover{
+    opacity: .8;
  
  }
  .showcase:hover .hover-icon{
-    visibility: visible;
+    opacity: 1;
  }
  .hover-icon  i.fas{
     font-size: 20px;

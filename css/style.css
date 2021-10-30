@@ -178,10 +178,8 @@ body{
 .showcase:hover{
    transform: scale(1.02);
 }
-.box-2{
-    width: 100%;
-}
-.box-2 img{
+
+.shocase img{
     width: 100%;
 }
 .p-b{

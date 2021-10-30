@@ -211,7 +211,7 @@ body{
     opacity: .5;
  
  }
- .showcase .hover-icon{
+ .showcase:hover .hover-icon{
     visibility: visible;
  }
  .hover-icon  i.fas{

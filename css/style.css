@@ -174,19 +174,20 @@ body{
     float: left;
     margin-right: 3%;
     margin-top: 30px;
-    transition: .3s;
     position: relative;
+    transition: .3s;
 }
 .p-b{
     margin-right: 0;   
 }
 .showcase img{
     width: 100%;
+    display: inline-block;
 }
 .showcase:hover{
    transform: scale(1.02);
 }
-.b-icon{
+  .hover-icon{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -201,26 +202,26 @@ body{
     bottom: 0;
     right: 0;
     height: 100%;
-    width: 100%;
+    width: 100%; 
     opacity: 0;
-    transition: 0.5s ease;
-    background-color: rgba(0, 255, 255,0.8);
- }
+    transition: 0.5s;
+    background-color: #15A4FA;
+ }  
  .showcase:hover .o-box{
-    opacity: .7;
+    opacity: .5;
  
  }
- .showcase .b-icon{
+ .showcase .hover-icon{
     visibility: visible;
  }
- .b-icon  i.fas{
+ .hover-icon  i.fas{
     font-size: 20px;
-    color: #999999;
+    color: white;
     margin-right: 10px;
-    border: 1px solid #999999;
+    border: 1px solid white;
     padding: 10px;
     border-radius: 3px;
- }
+ }  
 
 /* showcase end  */
 
